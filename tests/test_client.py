@@ -15,21 +15,21 @@ put_example = {
 
 @pytest.fixture(autouse=True)
 def patch_requests_session(mocker):
-	mocker.patch('client.requests.')
+    mocker.patch('client.requests.')
 
 
 @pytest.fixture()
 def ostb():
-	pass
+    pass
 
 
 def test_client():
-	pass
+    pass
 
 
 def test_get():
-	pass
+    pass
 
 
 def test_put():
-	pass
+    pass
